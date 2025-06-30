@@ -1,4 +1,4 @@
-# prioritized-planning-
+# prioritized-planning for solving MAPF-
 Questa repository contiene il codice implementato per il problema di Prioritized Planning per risolvere istanze del problema Multi-Agent PathFindinng(MAPF).
 L’algoritmo prioritizza la pianificazione dei percorsi degli agenti in modo sequenziale, garantendo la generazione di soluzioni collision-free in maniera efficiente.
 I conflitti di cui si è tenuto conto sono il vertex conflict(quando due agenti si trovano nella stessa cella nello stesso istante di tempo) e lo swapping conflict(quando due agenti percorrono lo stesso arco in due direzioni opposte).
