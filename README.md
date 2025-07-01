@@ -14,5 +14,22 @@ Vengono qui elencate le librerie necessarie per garantire il corretto funzioname
   - numpy
   - matplotlib
   - argparse
-E' possibile installare le suddette librerie tramite il comando ```bash
+    
+E' possibile installare le suddette librerie tramite il comando:
+
+ ```bash
 pip install numpy matplotlib argparse
+
+## Utilizzo
+Per poter lanciare gli esperimenti è necessario eseguire il comando:
+ ```bash
+python main.py --map_path path/to/map.file --agent_counts 1,2,3 --show_map --show_animation
+
+Viene fornita ora una spiegazione del comando:
+-)--map_path: si deve specificare il percorso della mappa che si intende testare
+-)--agent_counts: è una lista di valori interi che indica i vari agenti che si vogliono testare(nell'esempio 1, 2 e 3)
+-)--show_map: è un flag opzionale per visualizzare la mappa
+-)--show_animation: è un flag opzionale per visualizzare l'animazione, quindi il movimento degli agenti nel tempo
+
+
+
