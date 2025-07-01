@@ -46,7 +46,7 @@ def update(frame: int, agents: List[Agent], paths, scatters: List[PathCollection
 
 
 
-def plot_map_temporale(map:np.ndarray, agents:List[Agent], paths):
+def plot_animation(map:np.ndarray, agents:List[Agent], paths):
     """
         Questa funzione permette di visualizzare l'andamento dei vari agenti nella mappa rispetto ai 
         loro percorsi.
