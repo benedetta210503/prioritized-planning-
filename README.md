@@ -5,3 +5,14 @@ I conflitti di cui si è tenuto conto sono il vertex conflict(quando due agenti 
 Oltre a questo algoritmo è presente anche il codice per eseguire l'animazione dei percorsi trovati per i vari agenti nei vari istanti di tempo.
 Gli agenti appariranno colorati con diversi colori e avranno lo stesso colore del relativo Starting Point(la posizione iniziale di partenza)che nell' animazione apparirà sottoforma quadrato, e della posizione terminante, che nell'animazione apparirà come una X.
 Sono poi mantenute alcune dei principali AI benchmarks per verificare l'efficienza dell'algoritmo e le soluzioni trovate.
+In particolare, l'obiettivo è valutare le performance e la scalabilità dell’algoritmo al variare del numero di agenti.
+
+## Requisiti
+Vengono qui elencate le librerie necessarie per garantire il corretto funzionamento del progetto.
+- Python 3.7 o superiore
+- Librerie Python:
+  - numpy
+  - matplotlib
+  - argparse
+E' possibile installare le suddette librerie tramite il comando ```bash
+pip install numpy matplotlib argparse
