@@ -19,7 +19,7 @@ E' possibile installare le suddette librerie tramite il comando:
 
  ```bash
 pip install numpy matplotlib argparse
-
+---
 ## Utilizzo
 Per poter lanciare gli esperimenti è necessario eseguire il comando:
  ```bash
