@@ -46,7 +46,7 @@ def genera_grafici(agents: List[Agent], expanded_nodes: List[int], running_time:
 
    
     plt.tight_layout()
-    plt.savefig(f"grafici_risultati_{map_name}.png")
+    plt.savefig(f"results\grafici_risultati_{map_name}.png")
 
     plt.close()
 
@@ -71,5 +71,5 @@ def genera_percentuali(num_agents:int,num_failure:int,num_success:int,map_name:s
     plt.ylabel('Numero Esperimenti')
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.tight_layout()
-    plt.savefig(f"percentuali_successi_{map_name}.png")
+    plt.savefig(f"results\percentuali_successi_{map_name}.png")
     plt.close()
