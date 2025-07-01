@@ -19,11 +19,13 @@ E' possibile installare le suddette librerie tramite il comando:
 
  ```bash
 pip install numpy matplotlib argparse
+````` 
 ---
 ## Utilizzo
 Per poter lanciare gli esperimenti è necessario eseguire il comando:
  ```bash
 python main.py --map_path path/to/map.file --agent_counts 1,2,3 --show_map --show_animation
+````` 
 
 Viene fornita ora una spiegazione del comando:
 -)--map_path: si deve specificare il percorso della mappa che si intende testare
