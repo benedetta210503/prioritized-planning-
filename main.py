@@ -10,6 +10,7 @@ from mappa import *
 from genera_grafici import *
 import numpy as np
 from typing import List, Dict, Tuple, Optional
+from pathlib import Path
 
 
 def set_of_expirements_with_k_agents(map: np.ndarray, agents: List[Agent], total_agent_count: List[int]):
@@ -99,7 +100,7 @@ def main():
     parser.add_argument('--show_animation', action='store_true', help="Mostra l'animazione")
 
     args = parser.parse_args()
-
+    map_name = Path(args.map_path).stem
     map_letta = read_map(args.map_path)
     map = create_map(map_letta)
     if args.show_map:
@@ -120,13 +121,15 @@ def main():
         agents=results["number agents"],
         expanded_nodes=results["expanded_nodes"],
         running_time=results["running_time"],
-        costo=results["total cost"]
+        costo=results["total cost"],
+        map_name=map_name
     )    
 
     genera_percentuali(
         num_agents=int(results["number agents"][-1]),
         num_failure=results["number of failure"],
-        num_success=results["number of success"]
+        num_success=results["number of success"],
+        map_name=map_name
     )
     if args.show_animation:
         last_agents = agents_pool[:args.agent_counts[-1]]
