@@ -33,5 +33,13 @@ Viene fornita ora una spiegazione del comando:
 -)--show_map: è un flag opzionale per visualizzare la mappa
 -)--show_animation: è un flag opzionale per visualizzare l'animazione, quindi il movimento degli agenti nel tempo
 
+---
+## Risultati
+Al termine dell'esecuzione verranno generati grafici relativi a:
+1)tempo di esecuzione al variare del numero di agenti
+2)numero dei nodi espansi al variare del numero di agenti
+3)costo della soluzione trovata al variare del numero di agenti
+4)tasso di successo e fallimento dell'algoritmo(si ricorda che PP non garantisce completezza)
 
+---
 
