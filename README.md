@@ -95,7 +95,7 @@ Per chiarezza, viene qui fornito un esempio di come appaiono i suddetti risultat
 
 
 
-<img src="results/grafici_risultati_lak307d.png" width="700"/>
+<img src="results/grafici_risultati_lak307d.png" width="900"/>
 
 
 
