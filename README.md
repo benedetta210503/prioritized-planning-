@@ -36,6 +36,13 @@ Viene fornita ora una spiegazione del comando:
 -)--agent_counts: è una lista di valori interi che indica i vari agenti che si vogliono testare(nell'esempio 1, 2 e 3)
 
 
+-)--max_agent: si deve inserire un valore intero che indica il massimo numero di agenti che si vuole generare nel pool
+
+
+-)--seed: si deve indicare un valore intero necessario per la generazione del pool di agenti e per pseudorandomizzare le posizioni iniziali e obiettivo degli agenti
+
+
+
 -)--show_map: è un flag opzionale per visualizzare la mappa
 
 
