@@ -26,6 +26,13 @@ Ogni agente ha un colore unico, e tale colore sarà presente anche :
   - nel **punto di partenza** dell'agente stesso (mostrato come **quadrato**).
   - nel **punto di arrivo** dell'agente stesso(indicato con una **X**).
 
+Ecco come si presenta l'animazione implementata.
+
+
+<img src="images/animazione.gif" width="600"/>
+
+
+
 ## Benchmarks
 Sono inclusi diversi **benchmark standard usati in AI**, per valutare:
 
