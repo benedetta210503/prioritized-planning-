@@ -1,5 +1,5 @@
 # Prioritized planning per risolvere istanze di MAPF
-Questa repository contiene il codice implementato per eseguire l'algoritmo **Prioritized Planning** per risolvere istanze del problema **Multi-Agent PathFindinng(MAPF)**.
+Questa repository contiene il codice implementato per eseguire l'algoritmo **Prioritized Planning** per risolvere istanze del problema **Multi-Agent Path Finding(MAPF)**.
 L’algoritmo prioritizza la pianificazione dei percorsi degli agenti in modo sequenziale, garantendo la generazione di soluzioni collision-free in maniera efficiente e veloce.
 Si ricordi che il Prioritized Planning è un algoritmo che **non garantisce completezza** , dunque alcune istanze potrebbero non essere risolvibili.
 
