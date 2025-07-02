@@ -93,7 +93,7 @@ Al termine dell'esecuzione verranno generati grafici relativi a:
 
 Per chiarezza, viene qui fornito un esempio di come appaiono i suddetti risultati.
 
-<img src="results/grafici_risultati_lak307.png" width="400"/>
+<img src="results/grafici_risultati_lak307d.png" width="400"/>
 
 
 
