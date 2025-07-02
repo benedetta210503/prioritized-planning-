@@ -12,7 +12,9 @@ I conflitti di cui si è tenuto conto sono:
 Il progetto include anche un semplice modulo che permette di visualizzare la mappa scelta.
 
 Viene qui presentato un esempio di come appare la mappa.
-![Mappa lak307d](images/lak307d.png)
+
+<img src="images/lak307d.png" width="400"/>
+
 
 ## Animazione 
 Il progetto include un modulo di **visualizzazione animata** del movimento degli agenti nel tempo.
