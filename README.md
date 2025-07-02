@@ -26,10 +26,10 @@ Ogni agente ha un colore unico, e tale colore sarà presente anche :
   - nel **punto di partenza** dell'agente stesso (mostrato come **quadrato**).
   - nel **punto di arrivo** dell'agente stesso(indicato con una **X**).
 
-Ecco come si presenta l'animazione implementata.
 
+Viene qui presentata una breve animazione che descrive i primi time-step dell'algoritmo su un labirinto 32x32.
 
-<img src="images/animazione.gif" width="600"/>
+<img src="images/animation.gif" width="600"/>
 
 
 
