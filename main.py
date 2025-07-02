@@ -142,7 +142,7 @@ def main():
         last_agents = agents_pool[:args.agent_counts[-1]]
         _, paths, _ = prioritized_planning(map, last_agents)
         if paths is not None:
-            plot_map_temporale(map, last_agents, paths)
+            plot_animation(map, last_agents, paths)
         else:
             print("Nessuna soluzione trovata, animazione non disponibile.")
 
