@@ -97,6 +97,12 @@ def main():
         default=120,
         help="Numero massimo di agenti da generare nel pool (default: 120)"
     )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=0,
+        help="Seed da usare per la generazione degli agenti (default: 0)"
+    )
     parser.add_argument("--show_map", action="store_true", help="Mostra la mappa statica.")
     parser.add_argument('--show_animation', action='store_true', help="Mostra l'animazione")
 
