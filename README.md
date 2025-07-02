@@ -11,10 +11,13 @@ I conflitti di cui si è tenuto conto sono:
 ## Visualizzazione mappa
 Il progetto include anche un semplice modulo che permette di visualizzare la mappa scelta.
 
-Viene qui presentato un esempio di come appare la mappa.
+Ecco alcuni esempi di come appaiono le mappe.
 
 <img src="images/lak307d.png" width="400"/>
 
+
+
+<img src="images/orz301d.png" width="400"/>
 
 ## Animazione 
 Il progetto include un modulo di **visualizzazione animata** del movimento degli agenti nel tempo.
