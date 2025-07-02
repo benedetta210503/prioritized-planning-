@@ -88,12 +88,15 @@ Al termine dell'esecuzione verranno generati grafici relativi a:
 
 3)**costo della soluzione**(somma delle lunghezze dei percorsi trovati) trovata al variare del numero di agenti
 
+
 4)**tasso di successo** dell'algoritmo Prioritized Planning
 
+Per chiarezza, viene qui fornito un esempio di come appaiono i suddetti risultati.
+
+<img src="results/grafici_risultati_lak307.png" width="400"/>
 
 
 
-4)tasso di successo e fallimento dell'algoritmo(si ricorda che PP non garantisce completezza)
 
 ---
 
