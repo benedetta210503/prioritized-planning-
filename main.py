@@ -39,8 +39,9 @@ def set_of_expirements_with_k_agents(map: np.ndarray, agents: List[Agent], total
     for k in total_agent_count:
         if k>len(agents):
             raise ValueError(
-            f"Numero agenti richiesto ({k}) superiore alla dimensione del pool di agenti ({len(total_agent_count)}). "
+            f"Numero agenti richiesto ({k}) superiore alla dimensione del pool di agenti. "
             "Si aumenti la dimensione del pool o si riduca il numero di agenti da testare."
+            "La dimensione del pool è data dal parametro max_agent(default=120)"
         )
         agents_to_test = agents[:k]
         start_time = time.time()
