@@ -11,6 +11,9 @@ I conflitti di cui si è tenuto conto sono:
 ## Visualizzazione mappa
 Il progetto include anche un semplice modulo che permette di visualizzare la mappa scelta.
 
+Viene qui presentato un esempio di come appare la mappa.
+(images/
+
 ## Animazione 
 Il progetto include un modulo di **visualizzazione animata** del movimento degli agenti nel tempo.
 Ogni agente ha un colore unico, e tale colore sarà presente anche :
